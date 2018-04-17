@@ -1,3 +1,4 @@
+require_relative 'book_keeping'
 class BeerSong
 
   def verse(verse)
