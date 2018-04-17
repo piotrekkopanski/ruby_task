@@ -1,4 +1,5 @@
 require 'minitest/autorun'
+require 'minitest/pride'
 require_relative 'beer_song'
 
 # Common test data version: 1.0.0 9f3d48a
