@@ -13,4 +13,12 @@ class BeerSong
     end
   end
 
+  def verses(verse_one, verse_two)
+  	output = ""
+  	verse_one.downto(verse_two).each do |i|
+  	 output << "#{verse(i)}"
+    end
+    return output
+  end
+
 end
